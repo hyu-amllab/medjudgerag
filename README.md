@@ -2,6 +2,8 @@
 
 Official code and sanitized data release for **MedJudgeRAG: Option-Wise Evidence Judgment with Dynamic Knowledge Graphs for Medical MCQA**.
 
+This work is presented at [The Workshop on Graph Foundation Models: A New Era for Graph Machine Learning](https://sites.google.com/view/gfmicml-2026), held at the 43rd International Conference on Machine Learning (ICML 2026), Seoul, South Korea.
+
 ## What Is Released
 
 This repository contains:
@@ -340,6 +342,32 @@ python src/plot_kg_quality.py
 ```
 
 The script reads the four JSON files above from `results/kg_quality/` and writes the combined figure to `results/kg_quality/figures/`.
+
+## Citation
+
+If you use this code or the released MedJudgeRAG teacher traces, please cite the paper.
+The entry below is a temporary pre-camera-ready citation and will be updated once the final camera-ready metadata is available.
+
+```bibtex
+@inproceedings{
+anonymous2026medjudgerag,
+title={MedJudge{RAG}: Option-Wise Evidence Judgment with Dynamic Knowledge Graphs for Medical {MCQA}},
+author={Anonymous},
+booktitle={Workshop on Graph Foundation Models: A New Era for Graph Machine Learning},
+year={2026},
+url={https://openreview.net/forum?id=lrZIKfoRfz}
+}
+```
+
+## Acknowledgements and Upstream Resources
+
+This project builds on several public medical QA and retrieval resources. Please cite and follow the licenses/terms of the original resources when using this repository.
+
+- [MedQA / USMLE 4-option dataset](https://huggingface.co/datasets/GBaker/MedQA-USMLE-4-options), derived from the MedQA benchmark introduced in [*What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams*](https://arxiv.org/abs/2009.13081).
+- [MedMCQA](https://huggingface.co/datasets/openlifescienceai/medmcqa), introduced in [*MedMCQA: A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering*](https://arxiv.org/abs/2203.14371).
+- [MedRAG](https://github.com/gzxiong/MedRAG), the medical RAG toolkit and corpus/indexing setup used as the retrieval basis, introduced in [*Benchmarking Retrieval-Augmented Generation for Medicine*](https://arxiv.org/abs/2402.13178).
+
+Our released data keeps only retrieval document IDs and does not redistribute the raw MedRAG corpus passages.
 
 ## License and Data Notice
 

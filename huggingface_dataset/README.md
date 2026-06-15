@@ -42,6 +42,7 @@ configs:
 # MedJudgeRAG: SFT Traces and Evaluation Contexts
 
 This dataset accompanies the paper **MedJudgeRAG: Option-Wise Evidence Judgment with Dynamic Knowledge Graphs for Medical MCQA**.
+The paper is presented at [The Workshop on Graph Foundation Models: A New Era for Graph Machine Learning](https://sites.google.com/view/gfmicml-2026), held at the 43rd International Conference on Machine Learning (ICML 2026), Seoul, South Korea.
 It contains the GPT-5.1 teacher reasoning traces used to train the student models and the held-out evaluation contexts used to report results in the paper.
 
 To preserve the licensing terms of the underlying retrieval corpus, **raw retrieved passage text is not redistributed**.
@@ -203,4 +204,15 @@ The teacher prompt and decoding configuration that produced these traces are doc
 ## Citation
 
 If you use this dataset, please cite the MedJudgeRAG paper, MedQA, MedMCQA, and the MedRAG corpus.
-The exact BibTeX entries are listed in the GitHub README.
+The MedJudgeRAG entry below is a temporary pre-camera-ready citation and will be updated once the final camera-ready metadata is available.
+
+```bibtex
+@inproceedings{
+anonymous2026medjudgerag,
+title={MedJudge{RAG}: Option-Wise Evidence Judgment with Dynamic Knowledge Graphs for Medical {MCQA}},
+author={Anonymous},
+booktitle={Workshop on Graph Foundation Models: A New Era for Graph Machine Learning},
+year={2026},
+url={https://openreview.net/forum?id=lrZIKfoRfz}
+}
+```
