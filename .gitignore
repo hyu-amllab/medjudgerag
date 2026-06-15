@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv*/
+venv*/
+env*/
+
+# Secrets
+.env
+.env.*
+
+# Training outputs and checkpoints
+outputs/
+checkpoints/
+wandb/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# User-reconstructed full-context data (built from public ID-only files
+# via src/rehydrate_retrieved_docs.py; not redistributed)
+data/full_*.jsonl
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/

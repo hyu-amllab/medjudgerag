@@ -1,0 +1,31 @@
+# MedJudgeRAG - Evaluation / inference environment
+#
+# Used for:
+#   - evaluate.py (parametric / vanilla_rag / implicit / explicit modes)
+#
+# vLLM requires a more recent PyTorch than the training stack, so the
+# evaluation environment is installed separately from the training
+# environment. Install with:
+#     pip install -r requirements-eval.txt
+
+# vLLM inference engine
+vllm==0.17.1
+
+# Core deep learning (vLLM-compatible PyTorch)
+torch==2.10.0
+torchvision==0.25.0
+torchaudio==2.10.0
+
+# HuggingFace stack
+transformers==4.57.6
+tokenizers==0.22.2
+safetensors==0.7.0
+sentencepiece==0.2.1
+
+# Numerics and utilities
+numpy==2.2.6
+tqdm==4.67.3
+
+# Compatibility: kept for shared utility scripts
+openai==2.24.0
+python-dotenv==1.2.2

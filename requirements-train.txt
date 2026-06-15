@@ -1,0 +1,56 @@
+# MedJudgeRAG - Training environment
+#
+# Used for:
+#   - generate_teacher_traces.py
+#   - postprocess_kg_traces.py
+#   - filter_traces_by_length.py
+#   - filter_nokg_traces_by_length.py
+#   - create_nokg_control_traces.py
+#   - train_medjudgerag_mistral.py
+#   - train_medjudgerag_llama3.py
+#   - train_nokg_control.py
+#   - merge_lora_adapter.py
+#   - analyze_kg_quality.py
+#   - plot_kg_quality.py
+#   - rehydrate_retrieved_docs.py
+#
+# We pin to the exact versions used in the paper. PyTorch is the cu118
+# build because DeepSpeed + bitsandbytes were tested against this stack.
+# Install with:
+#     pip install -r requirements-train.txt --extra-index-url https://download.pytorch.org/whl/cu118
+
+# Core deep learning
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118
+torchaudio==2.7.1+cu118
+
+# HuggingFace stack
+transformers==4.57.6
+tokenizers==0.22.2
+datasets==4.4.2
+huggingface-hub==0.36.0
+safetensors==0.7.0
+sentencepiece==0.2.1
+protobuf==4.25.3
+
+# Parameter-efficient fine-tuning
+peft==0.18.1
+trl==0.9.6
+
+# Distributed / mixed-precision training
+accelerate==1.12.0
+deepspeed==0.18.7
+bitsandbytes==0.49.1
+
+# Teacher generation (OpenAI Batch API)
+openai==2.16.0
+python-dotenv==1.2.1
+
+# Plotting (Figure 2 reproduction)
+matplotlib==3.10.8
+
+# Numerics and utilities
+numpy==1.26.4
+scipy==1.15.3
+pandas==2.3.3
+tqdm==4.67.1

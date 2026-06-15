@@ -1,0 +1,9 @@
+backbone,method,decoding,lambda_g,medqa_acc,medmcqa_acc,avg_acc
+Mistral,Parametric,none,,52.55,46.26,49.41
+Mistral,Vanilla RAG,none,,50.59,41.57,46.08
+Mistral,Ours,Explicit,0.0,59.54,50.37,54.96
+Mistral,Ours,Implicit,0.0,60.88,50.16,55.52
+Llama,Parametric,none,,60.64,54.86,57.75
+Llama,Vanilla RAG,none,,49.88,45.61,47.75
+Llama,Ours,Explicit,0.0,63.94,55.39,59.67
+Llama,Ours,Implicit,0.0,66.93,57.33,62.13
