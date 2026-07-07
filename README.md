@@ -350,9 +350,9 @@ The entry below is a temporary pre-camera-ready citation and will be updated onc
 
 ```bibtex
 @inproceedings{
-anonymous2026medjudgerag,
+seo2026medjudgerag,
 title={MedJudge{RAG}: Option-Wise Evidence Judgment with Dynamic Knowledge Graphs for Medical {MCQA}},
-author={Anonymous},
+author={Seongwon Seo and Seung Hwan Cho and Young-Min Kim},
 booktitle={Workshop on Graph Foundation Models: A New Era for Graph Machine Learning},
 year={2026},
 url={https://openreview.net/forum?id=lrZIKfoRfz}
