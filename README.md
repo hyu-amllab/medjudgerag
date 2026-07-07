@@ -77,6 +77,8 @@ requirements-eval.txt
 
 ## Data Files
 
+To use the dataset on Hugging Face, please visit https://huggingface.co/datasets/youarethewon/medjudgerag.
+
 `data/medqa_eval_retrieval_ids.jsonl` and `data/medmcqa_eval_retrieval_ids.jsonl` contain benchmark questions, answer options, labels, and top-5 retrieved document IDs.
 They do not include retrieved passage text.
 
