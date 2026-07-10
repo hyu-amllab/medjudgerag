@@ -4,6 +4,8 @@ Official code and sanitized data release for **[MedJudgeRAG: Option-Wise Evidenc
 
 This work is presented at [The Workshop on Graph Foundation Models: A New Era for Graph Machine Learning](https://sites.google.com/view/gfmicml-2026), held at the 43rd International Conference on Machine Learning (ICML 2026), Seoul, South Korea.
 
+To use the dataset on Hugging Face, please visit [https://huggingface.co/datasets/youarethewon/medjudgerag](https://huggingface.co/datasets/youarethewon/medjudgerag).
+
 ## What Is Released
 
 This repository contains:
@@ -76,8 +78,6 @@ requirements-eval.txt
 ```
 
 ## Data Files
-
-To use the dataset on Hugging Face, please visit https://huggingface.co/datasets/youarethewon/medjudgerag.
 
 `data/medqa_eval_retrieval_ids.jsonl` and `data/medmcqa_eval_retrieval_ids.jsonl` contain benchmark questions, answer options, labels, and top-5 retrieved document IDs.
 They do not include retrieved passage text.
