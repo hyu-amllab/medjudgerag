@@ -1,6 +1,6 @@
 # MedJudgeRAG
 
-Official code and sanitized data release for **MedJudgeRAG: Option-Wise Evidence Judgment with Dynamic Knowledge Graphs for Medical MCQA**.
+Official code and sanitized data release for **[MedJudgeRAG: Option-Wise Evidence Judgment with Dynamic Knowledge Graphs for Medical MCQA](https://openreview.net/forum?id=lrZIKfoRfz)**.
 
 This work is presented at [The Workshop on Graph Foundation Models: A New Era for Graph Machine Learning](https://sites.google.com/view/gfmicml-2026), held at the 43rd International Conference on Machine Learning (ICML 2026), Seoul, South Korea.
 
